@@ -32,7 +32,6 @@ replace (
 	k8s.io/mount-utils => k8s.io/mount-utils v0.23.6
 	k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.23.6
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.23.6
-
 )
 
 require (
@@ -45,14 +44,14 @@ require (
 )
 
 require (
-	github.com/bits-and-blooms/bitset v1.2.0 // indirect
+	cyphar.com/go-pathrs v0.2.1 // indirect
 	github.com/c9s/goprocinfo v0.0.0-20170724085704-0010a05ce49f // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
+	github.com/cyphar/filepath-securejoin v0.6.0 // indirect
 	github.com/go-logr/logr v1.2.0 // indirect
-	github.com/opencontainers/selinux v1.8.2 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
+	github.com/opencontainers/selinux v1.13.0 // indirect
 	github.com/russross/blackfriday/v2 v2.0.1 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
-	golang.org/x/sys v0.0.0-20210831042530-f4d43177bf5e // indirect
+	golang.org/x/sys v0.26.0 // indirect
 	k8s.io/klog/v2 v2.30.0 // indirect
 )
