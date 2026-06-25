@@ -1,6 +1,6 @@
 module github.com/longhorn/longhorn-share-manager
 
-go 1.17
+go 1.23.0
 
 // install the below required grpc/protobuf versions
 // https://github.com/protocolbuffers/protobuf/releases/download/v3.7.1/protoc-3.7.1-linux-x86_64.zip
@@ -32,27 +32,25 @@ replace (
 	k8s.io/mount-utils => k8s.io/mount-utils v0.23.6
 	k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.23.6
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.23.6
-
 )
 
 require (
 	github.com/longhorn/go-iscsi-helper v0.0.0-20220805034259-7b59e22574bb
-	github.com/sirupsen/logrus v1.8.1
+	github.com/sirupsen/logrus v1.9.3
 	github.com/urfave/cli v1.22.2
-	k8s.io/kubernetes v1.23.6
+	k8s.io/kubernetes v1.32.10
 	k8s.io/mount-utils v0.23.6
-	k8s.io/utils v0.0.0-20211116205334-6203023598ed
+	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )
 
 require (
-	github.com/bits-and-blooms/bitset v1.2.0 // indirect
 	github.com/c9s/goprocinfo v0.0.0-20170724085704-0010a05ce49f // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
-	github.com/go-logr/logr v1.2.0 // indirect
-	github.com/opencontainers/selinux v1.8.2 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
-	github.com/russross/blackfriday/v2 v2.0.1 // indirect
-	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
-	golang.org/x/sys v0.0.0-20210831042530-f4d43177bf5e // indirect
-	k8s.io/klog/v2 v2.30.0 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
+	github.com/fsnotify/fsnotify v1.7.0 // indirect
+	github.com/go-logr/logr v1.4.2 // indirect
+	github.com/opencontainers/selinux v1.11.1 // indirect
+	github.com/russross/blackfriday/v2 v2.1.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
+	k8s.io/apimachinery v0.0.0 // indirect
+	k8s.io/klog/v2 v2.130.1 // indirect
 )
